@@ -1,0 +1,213 @@
+
+/* ----------- HEADER ---------- */
+
+
+/* ----------- MENU ---------- */
+
+ul {
+	list-style-type: none;
+	width: 260px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+  li {
+	float: left;
+
+  }
+  
+  li a {
+	width: 100px;
+	margin: 0px 5px;
+	text-decoration: none;
+	display: block;
+	color: #111111;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px 0px;
+	border-radius: 20px;
+	border: 1px solid #444444;
+  }
+  
+  li a:hover {
+	background-color:#c4cfc7;
+  }
+
+/* ----------- SECTION / ARTICLE ---------- */
+
+img:hover{
+    filter: grayscale(100%);
+}
+
+.gafas, .thug-life, .trompeta{
+    position: absolute;
+    top:-500px;
+	left: 0px;
+	width: 200px;
+	transition: ease-out 1.2s;
+}
+
+/* ----------- ARDILLA ---------- */
+
+.ardillaThug:hover .gafas{
+	top:370px;
+	left: 295px;
+	width: 200px;
+	transform: rotate(10deg);
+}
+
+.ardillaThug:hover .thug-life{
+	top:20px;
+	left: 100px;
+	width: 500px;
+	transform: rotate(-10deg);
+}
+
+.ardillaThug:hover .trompeta{
+	top:435px;
+	left: 313px;
+	width: 70px;
+	transform: rotate(20deg);
+}
+
+/* ----------- BOSTEZO ---------- */
+
+.bostezoThug:hover .gafas{
+	top:910px;
+	left: 325px;
+	width: 150px;
+	transform: rotate(-5deg);
+}
+
+.bostezoThug:hover .thug-life{
+	top:870px;
+	left: 150px;
+	width: 500px;
+	transform: rotate(-10deg);
+}
+
+.bostezoThug:hover .trompeta{
+	top:960px;
+	left: 320px;
+	width: 70px;
+	transform: rotate(20deg);
+}
+
+/* ----------- BUDA ---------- */
+
+.budaThug:hover .gafas{
+	top:1380px;
+	left: 45px;
+	width: 250px;
+	transform: rotate(30deg);
+}
+
+.budaThug:hover .thug-life{
+	top:1360px;
+	left: 40px;
+	width: 450px;
+	transform: rotate(-30deg);
+}
+
+.budaThug:hover .trompeta{
+	top:1470px;
+	left: 70px;
+	width: 70px;
+	transform: rotate(20deg);
+}
+
+/* ----------- GAVIOTA ---------- */
+
+.gaviotaThug:hover .gafas{
+	top:2383px;
+	left: 625px;
+	width: 100px;
+	transform: rotate(8deg);
+}
+
+.gaviotaThug:hover .thug-life{
+	top:2200px;
+	left: 20px;
+	width: 450px;
+	transform: rotate(-15deg);
+}
+
+.gaviotaThug:hover .trompeta{
+	top:2405px;
+	left: 610px;
+	width: 50px;
+	transform: rotate(20deg);
+}
+
+/* ----------- PATO ---------- */
+
+.patoThug:hover .gafas{
+	top:2722px;
+	left: 315px;
+	width: 100px;
+	transform: rotate(-5deg);
+}
+
+.patoThug:hover .thug-life{
+	top:2820px;
+	left: 60px;
+	width: 400px;
+	transform: rotate(-15deg);
+}
+
+.patoThug:hover .trompeta{
+	top:2735px;
+	left: 375px;
+	width: 50px;
+	transform: rotate(220deg);
+}
+
+/* ----------- PERRUCRISTO ---------- */
+
+.perrucristoThug:hover .gafas{
+	top:3653px;
+	left: 308px;
+	width: 100px;
+	transform: rotate(0deg);
+}
+
+.perrucristoThug:hover .thug-life{
+	top:3680px;
+	left: 130px;
+	width: 400px;
+	transform: rotate(-15deg);
+}
+
+.perrucristoThug:hover .trompeta{
+	top:3687px;
+	left: 300px;
+	width: 50px;
+	transform: rotate(5deg);
+}
+
+/* ----------- PESCAO ---------- */
+
+.pescaoThug:hover .gafas{
+	top:4200px;
+	left: 300px;
+	width: 150px;
+	transform: rotate(5deg);
+}
+
+.pescaoThug:hover .thug-life{
+	top:4250px;
+	left: 180px;
+	width: 400px;
+	transform: rotate(-15deg);
+}
+
+.pescaoThug:hover .trompeta{
+	top:4250px;
+	left: 310px;
+	width: 50px;
+	transform: rotate(5deg);
+}
+
+/* ----------- FOOTER ---------- */
